@@ -58,7 +58,8 @@ setup(
         'requests; python_version >= "3.7"',
         'requests<2.28; python_version < "3.7"',
         'futures; python_version == "2.7"',
-        'urllib3'
+        'urllib3',
+        'PyMuPDF'
     ],
     extras_require={
         'dev': [
