@@ -35,6 +35,7 @@ setup(
     maintainer_email='inthat@yeah.net',
     license='MIT',
     url='https://github.com/shepf/httpcat-python-sdk',
+    download_url='https://github.com/shepf/httpcat-python-sdk',
     platforms='any',
     packages=find_packages(),
     classifiers=[
