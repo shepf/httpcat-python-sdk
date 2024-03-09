@@ -36,6 +36,9 @@ setup(
     license='MIT',
     url='https://github.com/shepf/httpcat-python-sdk',
     download_url='https://github.com/shepf/httpcat-python-sdk',
+    project_urls={
+        'Source': 'https://github.com/shepf/httpcat-python-sdk.git',
+    },
     platforms='any',
     packages=find_packages(),
     classifiers=[
