@@ -1,13 +1,13 @@
-# httpcat-python-sdk
-## Httpcat SDK
-httpcat-python-sdk [GitHub](https://github.com/shepf/httpcat-python-sdk)配合 [httpcat服务端项目](https://github.com/shepf/httpcat-release)使用，是httpcat服务的客户端sdk。
+# httpcat-sdk
+## Introduction
+The "httpcat-sdk" is a Python client SDK designed to be used in conjunction with the ["HttpCat" server-side project](https://github.com/shepf/httpcat-release). 
+It provides a set of convenient functionalities and interfaces for communicating with the "HttpCat" service.
+
 
 Httpcat SDK for Python allows you to easily upload and download your httpcat service files.
 
-Httpcat SDK for Python 可以方便的让你上传下载你的httpcat服务文件。
 
-
-## 安装
+## Install
 pip install
 ```bash
 $ pip install httpcat-sdk
@@ -25,7 +25,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-usage:
+## Usage
 ```
 from httpcat.services.storage.uploader import upload_file
 
@@ -41,8 +41,6 @@ print(response.text)
 Based on your deployment of httpcat, modify the upload_token and upload_url information. 
 The upload_token is obtained from the token management interface of the httpcat service.
 
-根据你搭建httpcat，修改upload_token，upload_url信息
-upload_token来自httpcat服务上传token管理界面。
 
 
 Normal output result:

@@ -34,7 +34,7 @@ setup(
     author_email='inthat@yeah.net',
     maintainer_email='inthat@yeah.net',
     license='MIT',
-    url='https://github.com/shepf/httpcat-python-sdk',
+    url='https://github.com/shepf/httpcat-python-sdk.git',
     download_url='https://github.com/shepf/httpcat-python-sdk',
     project_urls={
         'Source': 'https://github.com/shepf/httpcat-python-sdk.git',

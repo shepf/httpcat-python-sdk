@@ -5,6 +5,6 @@ Httpcat Resource Storage SDK for Python
 
 '''
 
-__version__ = '0.0.5'
+__version__ = '0.0.6'
 
 from .utils import urlsafe_base64_encode, urlsafe_base64_decode, file_md5, decode_entry, canonical_mime_header_key
